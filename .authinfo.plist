@@ -1,0 +1,12 @@
+;;; public entries -*- mode: plstore -*- 
+(("org-gcal" :app "org-gcal" :id "201792928692-sa23jh5crh8rbp11odhvop95bhrg8e9r.apps.googleusercontent.com" :secret-secret t))
+;;; secret entries
+"-----BEGIN PGP MESSAGE-----
+Version: GnuPG v1
+
+jA0EBwMCYpYJKvbIhthg0mcBq0q57feeQhWhnmtkozTBEgvIQBu7qSrN0G4KXIuG
+HmgA69eNtSovejws+8Q9geKp8tdssdglgZTWEcKiasS4NGMOc/9WvSlx564/MEkJ
+lrdxyQaJhnu+fc4zK3utaGEiVaBRAIHW
+=SPmb
+-----END PGP MESSAGE-----
+"

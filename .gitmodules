@@ -1,0 +1,6 @@
+[submodule "reveal.js"]
+	path = reveal.js
+	url = https://github.com/hakimel/reveal.js.git
+[submodule "yasnippet-php-mode"]
+	path = yasnippet-php-mode
+	url = https://github.com/barendt/yasnippet-php-mode.git
