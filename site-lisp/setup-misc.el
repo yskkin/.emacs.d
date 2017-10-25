@@ -15,6 +15,5 @@
 (el-get-bundle reveal-in-osx-finder)
 (el-get-bundle sudo-edit)
 (el-get-bundle fiplr)
-(el-get-bundle yafolding)
 
 (provide 'setup-misc)

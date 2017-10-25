@@ -1,6 +1,8 @@
 (require 'el-get)
 
 (add-hook 'prog-mode-hook #'whitespace-mode)
+(el-get-bundle yafolding
+  (add-hook 'prog-mode-hook #'yafolding-mode))
 
 (set-face-attribute 'default nil
                   :family "Source Han Code JP")
