@@ -12,6 +12,7 @@
     (flycheck-add-mode 'php-phpcs 'web-mode)
     (flycheck-add-mode 'javascript-eslint 'web-mode)
 
+    (put 'flycheck-javascript-eslint-executable 'safe-local-variable #'stringp)
     (flycheck-define-checker php-phpcs1
       "A PHP style checker using PHP Code Sniffer.
 
