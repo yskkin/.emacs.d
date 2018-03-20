@@ -10,6 +10,8 @@
 
   (global-set-key "\C-cE" #'ctags-update))
 
+(put 'ctags-update-other-options 'safe-local-variable #'listp)
+
 (provide 'setup-tags)
 
 (custom-set-variables
@@ -17,7 +19,4 @@
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
- '(ctags-update-other-options
-   (quote
-    ("--fields=+iaSt" "--extra=+q" "--exclude='*.elc'" "--exclude='*.class'" "--exclude='.git'" "--exclude='.svn'" "--exclude='test'" "--exclude='vendor'")))
  '(tags-revert-without-query t))
