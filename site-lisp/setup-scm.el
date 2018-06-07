@@ -3,6 +3,7 @@
 
 (add-to-list 'initsplit-customizations-alist `("\\(^magit\\|^vc-\\)" ,(or load-file-name (buffer-file-name))))
 
+(el-get-bundle! git-gutter-fringe+)
 (el-get-bundle magit
   (global-set-key (kbd "C-x g") #'magit-status))
 
