@@ -15,5 +15,7 @@
 (el-get-bundle reveal-in-osx-finder)
 (el-get-bundle sudo-edit)
 (el-get-bundle fiplr)
+(el-get-bundle visual-regexp
+  (global-set-key (kbd "M-%") #'vr/query-replace))
 
 (provide 'setup-misc)
