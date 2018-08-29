@@ -19,9 +19,6 @@
                     (font-spec :family "Noto Sans CJK JP")))
 (menu-bar-mode -1)
 
-(el-get-bundle elpa:elscreen)
-(el-get-bundle elscreen-separate-buffer-list)
-
 ;;; http://fukuyama.co/sticky-buffer
 (defvar sticky-buffer-previous-header-line-format)
 (define-minor-mode sticky-buffer-mode
