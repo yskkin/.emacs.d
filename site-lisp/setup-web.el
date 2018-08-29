@@ -5,9 +5,7 @@
 (add-to-list 'initsplit-customizations-alist `("^css-" ,(or load-file-name (buffer-file-name))))
 (add-to-list 'initsplit-customizations-alist `("^web-mode" ,(or load-file-name (buffer-file-name))))
 
-(el-get-bundle haml-mode)
 (el-get-bundle slim-mode)
-(el-get-bundle coffee-mode)
 (el-get-bundle js2-mode
   (add-to-list 'auto-mode-alist '("\\.js\\'" . js2-mode)))
 (el-get-bundle web-mode
