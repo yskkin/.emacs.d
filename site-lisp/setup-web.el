@@ -8,10 +8,11 @@
 (el-get-bundle slim-mode)
 (el-get-bundle js2-mode
   (add-to-list 'auto-mode-alist '("\\.js\\'" . js2-mode)))
+(el-get-bundle vue-mode)
 (el-get-bundle web-mode
   (add-to-list 'auto-mode-alist '("\\.erb\\'" . web-mode))
   (add-to-list 'auto-mode-alist '("\\.tag\\'" . web-mode))
-  (add-to-list 'auto-mode-alist '("\\.vue\\'" . web-mode))
+  (add-to-list 'magic-mode-alist '("import.*react" . web-mode))
   (with-eval-after-load-feature 'web-mode
     (setq web-mode-ac-sources-alist
           '(("php" . (ac-source-yasnippet))
