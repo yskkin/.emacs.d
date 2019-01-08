@@ -8,7 +8,7 @@
 (el-get-bundle slim-mode)
 (el-get-bundle vue-mode)
 (el-get-bundle web-mode
-  (add-to-list 'auto-mode-alist '("\\.js\\'" . web-mode)))
+  (add-to-list 'auto-mode-alist '("\\.js\\'" . web-mode))
   (add-to-list 'auto-mode-alist '("\\.erb\\'" . web-mode))
   (add-to-list 'auto-mode-alist '("\\.tag\\'" . web-mode))
   (with-eval-after-load-feature 'web-mode
