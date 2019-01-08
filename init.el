@@ -54,6 +54,7 @@
 (require 'setup-theme)
 (require 'setup-undo-tree)
 (require 'setup-web)
+(require 'setup-typescript)
 (require 'setup-window-manager)
 
 (server-start)
