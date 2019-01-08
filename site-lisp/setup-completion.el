@@ -5,6 +5,10 @@
 (add-to-list 'initsplit-customizations-alist `("^ac-" ,(or load-file-name (buffer-file-name))))
 (add-to-list 'initsplit-customizations-alist `("^helm-" ,(or load-file-name (buffer-file-name))))
 
+(el-get-bundle company
+  (setq company-tooltip-align-annotations t)
+  (global-company-mode))
+
 (el-get-bundle! helm
   (helm-mode 1)
   (eval-after-load 'migemo #'(lambda () (helm-migemo-mode 1)))
