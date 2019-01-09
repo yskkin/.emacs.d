@@ -90,4 +90,6 @@
  '(sp-autodelete-opening-pair nil)
  '(tab-width 4)
  '(visible-bell t)
- '(whitespace-line-column 100000))
+ '(whitespace-style
+   (quote
+    (face trailing tabs spaces newline empty indentation space-after-tab space-before-tab space-mark tab-mark newline-mark))))
